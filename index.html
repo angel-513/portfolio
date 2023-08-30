@@ -6,7 +6,7 @@
     <title>Angel Nolasco</title>
     <link rel="icon" type="image/x-icon" href="ruta-del-favicon.ico">
     <!--Main CSS-->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
     <!--RemixIcon CDN-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <!--GoogleFont's API-->
@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--======================== NAVBAR ========================-->
     <header class="header" id="header">
         <nav class="navbar container">
             <a href="#" class="logo">
@@ -23,7 +24,7 @@
             <div class="navbar-tabs" id="navbar-tabs">
                 <ul class="tabs-list">
                     <li class="tabs">
-                        <a href="#home" class="tabs-link">Home</a>
+                        <a href="#home" class="tabs-link active-link">Home</a>
                     </li>
                     <li class="tabs">
                         <a href="#about" class="tabs-link">About</a>
@@ -47,6 +48,7 @@
         </nav>
     </header>
 
+    <!--======================== MAIN ========================-->
     <main class="main">
         <!--======================== HOME SECTION ========================-->
         <section class="section home" id="home">
@@ -60,7 +62,7 @@
                             Angel Nolasco
                         </h1>
                         <h3 class="home-education">
-                            Back-end and Front-end Developer
+                            Back-end Developer
                         </h3>
                         <p class="home-description">
                             With knowledge in web development, specialized in 
@@ -83,7 +85,7 @@
                     </div>
                 </div>
                 <div class="home-image">
-                    <img src="/assets/img/foto.webp" alt="">
+                    <img src="/assets/img/foto-web.webp" alt="">
                 </div>
             </div>
         </section>
@@ -91,98 +93,198 @@
         <!--======================== ABOUT SECTION ========================-->
         <section class="section about" id="about">
             <div class="about-container container grid">
-                <div class="about-content">
-                    <div class="education-container">
-                        <h5 class="education-title">Education</h5>
-                        <div class="education-content">
-                            <div class="card-education">
-                                <h6 class="card-education-title">Academic</h6>
-                                <ul class="education-academic-list">
-                                    <li>
-                                        <span class="list-item">Bachelor of Science and Humanities, Instituto Tecnologico Taular</span>
-                                    </li>
-                                    <li>
-                                        <span class="list-item">Systems Engineering, UNAH (in progress)</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="card-education">
-                                <h6 class="card-education-title">Course and More</h6>
-                                <ul class="education-academic-list">
-                                    <li>
-                                        <span class="education-item">CCNA R&S: Introduction to Networks, Cisco</span>
-                                    </li>
-                                    <li>
-                                        <span class="education-item">CCNA R&S: Routing and Switching Essentials, Cisco</span>
-                                    </li>
-                                    <li>
-                                        <span class="education-item">HTML, CSS y Bootstrap, CEETI</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skills-container">
-                        <h5 class="skills-title">Skills</h5>
-                        <div class="skills-content">
-                            <div class="card-skills">
-                                <h6 class="card-skills-title">Technologies</h6>
-                                <ul class="skills-technologies-list">
-                                    <li>
-                                        <span class="list-item">Java</span>
-                                    </li>
-                                    <li>
-                                        <span class="list-item">HTML</span>
-                                    </li>
-                                    <li>
-                                        <span class="list-item">CSS</span>
-                                    </li>
-                                    <li>
-                                        <span class="list-item">JavaScript</span>
-                                    </li>
-                                    <li>
-                                        <span class="list-item">TypeScript</span>
-                                    </li>
-                                    <li>
-                                        <span class="list-item">NodeJS</span>
-                                    </li>
-                                    <li>
-                                        <span class="list-item">Express</span>
-                                    </li>
-                                    <li>
-                                        <span class="list-item">MongoDB</span>
-                                    </li>
-                                    <li>
-                                        <span class="list-item">Mongoose</span>
-                                    </li>
-                                    <li>
-                                        <span class="list-item">Python</span>
-                                    </li>
-                                    <li>
-                                        <span class="list-item">FastAPI</span>
-                                    </li>
-                                    <li>
-                                        <span class="list-item">Pygame</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                <div class="about-data">
+                    <h3 class="section-subtitle">
+                        My <span>Intro</span>
+                    </h3>
+
+                    <h2 class="section-title">
+                        About Me
+                    </h2>
+
+                    <p class="about-description">
+                        Junior developer with a passion for 
+                        analyzing and solving challenging problems. 
+                        Ability to quickly absorb new knowledge and 
+                        apply it effectively in development environments. 
+                        Ability to analyze and optimize code to achieve more 
+                        efficient solutions.
+                    </p>
+
+                    <a href="#contact" class="button about">Contact me</a>
+                </div>
+                <div class="home-image">
+                    <img src="/assets/img/foto-web.webp" alt="">
                 </div>
             </div>
         </section>
         
         <!--======================== SKILLS SECTION ========================-->
-        <section class="section skills" id="skills"></section>
+        <section class="section skills" id="skills">
+            <div class="skills-container container grid">
+                <div class="skills-data">
+                    <h3 class="section-subtitle">
+                        Favorite <span>Skills</span>
+                    </h3>
+
+                    <h2 class="section-title">
+                        My Skills
+                    </h2>
+
+                    <p class="skills-description">
+                        Outstanding ability in the analysis and 
+                        resolution of complex problems. Demonstrated 
+                        ability to quickly learn new technologies and concepts. 
+                        Skill in identifying and correcting problems in the code.
+                    </p>
+
+                    <a href="#projects" class="button">See Projects</a>
+            </div>
+
+            <div class="skills-content">
+                <ol class="skills-group">
+                    <li class="skills-item">HTML & CSS</li>
+                    <li class="skills-item">JavaScript</li>
+                    <li class="skills-item">TypeScript</li>
+                    <li class="skills-item">NodeJS</li>
+                    <li class="skills-item">Express</li>
+                </ol>
+                <ol class="skills-group" start="6">
+                    <li class="skills-item">Java</li>
+                    <li class="skills-item">Python</li>
+                    <li class="skills-item">FastAPI</li>
+                    <li class="skills-item">Git & Github</li>
+                    <li class="skills-item">MongoDB</li>
+                </ol>
+            </div>
+        </section>
         
+        <!--======================== SERVICES SECTION ========================-->
+        <section class="section services" id="services">
+            <h3 class="section-subtitle">
+                My <span>Services</span>
+            </h3>
+
+            <h2 class="section-title">
+                What I Do
+            </h2>
+
+            <div class="services-container container grid">
+                <article class="services-card">
+                    <i class="ri-layout-3-line services-icon"></i>
+                    <h2 class="services-title">Web Developer</h2>
+                    <p class="services-description">
+                        I develop web pages to suit the client, 
+                        I specialize in the creation of backend 
+                        using the most appropriate technologies 
+                        and libraries for the project.
+                    </p>
+                </article>
+
+                <article class="services-card">
+                    <i class="ri-computer-line services-icon"></i>
+                    <h2 class="services-title">Software Developer</h2>
+                    <p class="services-description">
+                        Passionate software developer with experience 
+                        in creating and optimizing computer programs. 
+                        Specialized in the design and development of 
+                        efficient solutions for data management and 
+                        recording.
+                    </p>
+                </article>
+            </div>
+        </section>
+
         <!--======================== PROJECTS SECTION ========================-->
-        <section class="section projects" id="projects"></section>
+        <section class="section projects" id="projects">
+            <h3 class="section-subtitle">
+                My <span>Projects</span>
+            </h3>
+
+            <h2 class="section-title">
+                Recent Projects
+            </h2>
+
+            <div class="projects-container container grid">
+                <article class="projects-card">
+                    <img src="assets/img/project-ecommerce.jpg" alt="" class="projects-img">
+                    <div class="projects-modal">
+                        <span class="projects-subtitle">Web</span>
+                        <h2 class="projects-title">E-Commerce Website</h2>
+                        <a href="#" class="projects-button">
+                            View Demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects-card">
+                    <img src="assets/img/project-data_management.jpg" alt="" class="projects-img">
+                    <div class="projects-modal">
+                        <span class="projects-subtitle">Computer Software</span>
+                        <h2 class="projects-title">Data Management Program</h2>
+                        <a href="#" class="projects-button">
+                            View Demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
         
         <!--======================== CONTACT SECTION ========================-->
-        <section class="section contact" id="contact"></section>
+        <section class="section contact" id="contact">
+            <h3 class="section-subtitle">
+                Get In <span>Touch</span>
+            </h3>
+
+            <h2 class="section-title">
+                Contact Me
+            </h2>
+
+            <div class="contact-container container grid">
+                <form action="" class="contact-form" id="contact-form">
+                    <div class="contact-group">
+                        <input type="text" name="user_name" class="contact-input" placeholder="Enter your name" required>
+                        <input type="email" name="user_email" class="contact-input" placeholder="Enter your email" required>
+                    </div>
+
+                    <textarea name="user_project" class="contact-input" placeholder="Enter your message" required></textarea>
+
+                    <p class="contact-message" id="contact-message"></p>
+
+                    <button type="submit" class="button contact-button">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
     </main>
 
+    <!--======================== FOOTER ========================-->
+    <footer class="footer">
+        <div class="footer-container container grid">
+            <h1 class="footer-title">
+                Angel <span>Nolasco</span>
+            </h1>
+            <h2 class="footer-education">
+                Back-end Developer
+            </h2>
 
+            <div class="footer-social">
+                <a href="https://github.com/angel-513" target="_blank" class="footer-social-link">
+                    <i class="ri-github-fill"></i>
+                </a>
+                <a href="www.linkedin.com/in/ángel-obed-nolasco-herrera" target="_blank" class="footer-social-link">
+                    <i class="ri-linkedin-box-fill"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!--ScrollUp Button-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
     <script src="/assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </body>
 </html>
